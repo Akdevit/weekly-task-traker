@@ -31,7 +31,6 @@ const App = () => {
   ];
 
   const currentDay = daysOfWeek[today.getDay()];
-  console.log(currentDay);
 
   const [selectedDay, setSelectedDay] = useState(currentDay);
 

@@ -5,7 +5,6 @@ const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
 
 const DaySelector = ({ selectedDay, setSelectedDay ,todos}) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-console.log(todos)
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
@@ -22,7 +21,6 @@ console.log(todos)
     ];
 
     const currentDay = daysOfWeek[today.getDay()];
-    console.log(currentDay);
     return (
         <div className="lg:w-[20%] w-0 relative">
             {/* Hamburger Icon */}
